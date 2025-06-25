@@ -10,6 +10,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "cloudstudio/ollama-laravel": "^1.1",
+        "deepseek-php/deepseek-laravel": "^1.0",
+        "deepseek-php/deepseek-php-client": "^2.0",
         "inertiajs/inertia-laravel": "^2.0",
         "laravel/framework": "^12.0",
         "laravel/octane": "^2.10",
@@ -81,6 +84,20 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        }
+    },
+    "repositories": {
+        "deepseek": {
+            "type": "package",
+            "package": {
+                "name": "deepseek-php/deepseek-laravel",
+                "version": "1.0",
+                "source": {
+                "url": "https://github.com/z4nder/deepseek-laravel.git",
+                "type": "git",
+                "reference": "origin/support-laravel-12"
+                }
+            }
         }
     },
     "minimum-stability": "stable",
