@@ -18,11 +18,10 @@ A comprehensive documentation template for your projects with powerful built-in 
 2. Install dependencies:
    ```bash
    bun install
-   composer install
    ```
 3. Start the development server:
    ```bash
-   npm run dev
+   bun run dev
    ```
 
 ## Development
@@ -32,9 +31,10 @@ A comprehensive documentation template for your projects with powerful built-in 
 - Vite for fast development builds
 - Tailwind CSS for styling
 
-### Backend
-- PHP backend with Laravel
-- Inertia.js for seamless frontend-backend integration
+### Frontend Features
+- Built-in search functionality
+- Theme customization
+- Responsive layout components
 
 ## Project Structure
 
